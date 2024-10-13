@@ -2,6 +2,12 @@ import vit0 from '@/assets/craft/vit0.png'
 import vit1 from '@/assets/craft/vit1.png'
 import vit2 from '@/assets/craft/vit2.png'
 import vit3 from '@/assets/craft/vit3.png'
+
+import whale0 from '@/assets/craft/whale0.png'
+import whale1 from '@/assets/craft/whale1.png'
+import whale2 from '@/assets/craft/whale2.png'
+import whale3 from '@/assets/craft/whale3.png'
+
 import bang from '@/assets/craft/bang.jpg'
 import dap from '@/assets/craft/dap.jpeg'
 import hat from '@/assets/craft/hat.jpeg'
@@ -20,6 +26,10 @@ export default {
   vit1,
   vit2,
   vit3,
+  whale0,
+  whale1,
+  whale2,
+  whale3,
   bang,
   kimdan,
   kimnhon,

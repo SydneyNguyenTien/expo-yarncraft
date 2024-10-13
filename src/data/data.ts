@@ -10,7 +10,7 @@ export interface IData {
     image?: ImageSourcePropType
     content: Array<{
       formula: string
-      sticks: number
+      stitch: number
     }>
     last: string
   }>
@@ -18,7 +18,7 @@ export interface IData {
 
 export const formulaData: IData[] = [
   {
-    title: 'Con vịt',
+    title: 'A Duck | Silva Crochet',
     image: images.vit0,
     youtubeId: 'U470YuZVmb4',
     instructions: [
@@ -28,35 +28,35 @@ export const formulaData: IData[] = [
         content: [
           {
             formula: '8 sc in Mr/Mc',
-            sticks: 8,
+            stitch: 8,
           },
           {
-            formula: 'inc',
-            sticks: 16,
+            formula: 'inc 8',
+            stitch: 16,
           },
           {
-            formula: '(sc, inc) 8x',
-            sticks: 24,
-          },
-          {
-            formula: 'sc all around',
-            sticks: 24,
-          },
-          {
-            formula: 'inc, sc 22, inc',
-            sticks: 26,
-          },
-          {
-            formula: 'sc 10x, dec, sc 2x, dec, sc 10x',
-            sticks: 26,
+            formula: '(sc, inc) 8',
+            stitch: 24,
           },
           {
             formula: 'sc all around',
-            sticks: 24,
+            stitch: 24,
+          },
+          {
+            formula: 'inc 1, sc 22, inc 1',
+            stitch: 26,
+          },
+          {
+            formula: 'sc 10, dec 1, sc 2, dec 1, sc 10',
+            stitch: 26,
           },
           {
             formula: 'sc all around',
-            sticks: 24,
+            stitch: 24,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 24,
           },
         ],
         last: 'Leave a long tail and sew it (Image below) leaving 10 sts for the head.',
@@ -66,38 +66,38 @@ export const formulaData: IData[] = [
         image: images.vit2,
         content: [
           {
-            formula: '7sc in Mr/Mc',
-            sticks: 7,
+            formula: 'sc 7 in Mr/Mc',
+            stitch: 7,
           },
           {
-            formula: 'inc',
-            sticks: 14,
-          },
-          {
-            formula: 'sc all around',
-            sticks: 14,
+            formula: 'inc 7',
+            stitch: 14,
           },
           {
             formula: 'sc all around',
-            sticks: 14,
+            stitch: 14,
           },
           {
-            formula: '(sc, dec) 4x, sc 2x',
-            sticks: 10,
+            formula: 'sc all around',
+            stitch: 14,
+          },
+          {
+            formula: '(sc, dec) 4, sc 2',
+            stitch: 10,
           },
         ],
         last: 'Leave long tail for sewing.',
       },
       {
-        title: 'Tail',
+        title: 'Wing',
         content: [
           {
-            formula: '5sc in Mr/Mc',
-            sticks: 5,
+            formula: 'sc 5 in Mr/Mc',
+            stitch: 5,
           },
           {
-            formula: 'inc, sc, (sc, hdc, ch, slst, sc) in one stitch, sc, inc',
-            sticks: 10,
+            formula: 'inc 1, sc 1, (sc, hdc, ch, slst, sc) in one stitch, sc 1, inc 1',
+            stitch: 10,
           },
         ],
         last: 'Leave enough tail for sewing',
@@ -107,15 +107,167 @@ export const formulaData: IData[] = [
         image: images.vit3,
         content: [
           {
-            formula: '2sl',
-            sticks: 2,
+            formula: 'sl 2',
+            stitch: 2,
           },
           {
-            formula: '1sc, 1hdc1, 1sc',
-            sticks: 4,
+            formula: '(sc, hdc) in 1 stitch, sc 1',
+            stitch: 3,
           },
         ],
         last: 'Put eyes on 2 adjacent stitch',
+      },
+    ],
+  },
+  {
+    title: 'A Cat Beanie',
+    image: images.vit0,
+    youtubeId: 's8uaBqUjZr4',
+    instructions: [
+      {
+        title: 'Base with measurement',
+        image: images.vit1,
+        content: [
+          {
+            formula: '8 sc in Mr/Mc',
+            stitch: 8,
+          },
+          {
+            formula: 'inc 16',
+            stitch: 16,
+          },
+          {
+            formula: '(sc, inc) 8',
+            stitch: 24,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 24,
+          },
+          {
+            formula: 'inc, sc 22, inc',
+            stitch: 26,
+          },
+          {
+            formula: 'sc 10x, dec, sc 2x, dec, sc 10x',
+            stitch: 26,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 24,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 24,
+          },
+        ],
+        last: 'Leave a long tail and sew it (Image below) leaving 10 sts for the head.',
+      },
+      
+      {
+        title: 'Connect the ends',
+        image: images.vit3,
+        content: [
+          {
+            formula: 'sl',
+            stitch: 4,
+          },
+        ],
+        last: 'Put eyes on 2 adjacent stitch',
+      },
+    ],
+  },
+  {
+    title: 'Whale | Luoie\'s Loops',
+    image: images.whale0,
+    youtubeId: 'docJoiUy-9E',
+    instructions: [
+      {
+        title: 'Fins',
+        image: images.whale1,
+        content: [
+          {
+            formula: 'Chain 4',
+            stitch: 4,
+          },
+          {
+            formula: 'Skip the first ch, sc 1, hdc 1, dc 1',
+            stitch: 3,
+          },
+        ],
+        last: 'Ch 1, cut the yarn leaving enough tail end to sew onto the body and pull through.',
+      },
+      
+      {
+        title: 'Tail',
+        image: images.whale2,
+        content: [
+          {
+            formula: 'Chain 6',
+            stitch: 6,
+          },
+          {
+            formula: 'Skip the first ch, sc 1, hdc 1, dc 1, hdc 1, slst 1',
+            stitch: 5,
+          },
+          {
+            formula: 'Ch 5, skip the first ch, sc 1, hdc 1, dc 1, hdc 1, slst into same st as Row 1',
+            stitch: 5,
+          },
+        ],
+        last: 'Ch 1, cut the yarn leaving enough tail end to sew onto the body and pull through.',
+      },
+      {
+        title: 'Body',
+        image: images.whale3,
+        content: [
+          {
+            formula: 'sc 6 into the magic loop',
+            stitch: 6,
+          },
+          {
+            formula: 'inc 6',
+            stitch: 12,
+          },
+          {
+            formula: '[sc 1, inc 1] 6',
+            stitch: 18,
+          },
+          {
+            formula: '[sc 5, inc 1] 3',
+            stitch: 21,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 21,
+          },
+          {
+            formula: 'sc 2, inc 1, sc 18',
+            stitch: 22,
+          },
+          {
+            formula: 'sc 2, inc 1, sc 1, inc 1, sc 17',
+            stitch: 24,
+          },
+          {
+            formula: '(change colour) sc 2, invdec 1, sc 1, invdec 1, sc 17',
+            stitch: 22,
+          },
+          {
+            formula: '[sc 2, invdec 1] 2, [sc 5, invdec 1] 2. Attach Fins and Tail. Add eyes into Rnd 6, sts 12 and 17.',
+            stitch: 18,
+          },
+          {
+            formula: ' [sc 1, invdec 1] 6. Stuff cotton',
+            stitch: 12,
+          },
+          {
+            formula: 'invdec all around',
+            stitch: 6,
+          },
+
+        ],
+        last: 'Stuff fully. Cut the yarn, pull through, and sew closed.',
       },
     ],
   },

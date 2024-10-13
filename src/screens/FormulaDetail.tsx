@@ -48,7 +48,7 @@ const FormulaDetail = ({ route }: Props) => {
                     <View className="flex-row justify-between border-b border-gray-300 py-2">
                       <Text className="font-semibold">Round</Text>
                       <Text className="font-semibold">Formula</Text>
-                      <Text className="font-semibold">Total sticks</Text>
+                      <Text className="font-semibold">Total stitch</Text>
                     </View>
                     {part.content.map((step, index) => (
                       <View
@@ -57,7 +57,7 @@ const FormulaDetail = ({ route }: Props) => {
                       >
                         <Text>{index + 1}</Text>
                         <Text>{step.formula}</Text>
-                        <Text>{step.sticks}</Text>
+                        <Text>{step.stitch}</Text>
                       </View>
                     ))}
                     {/* Add more rows as needed */}
