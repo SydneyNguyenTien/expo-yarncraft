@@ -271,6 +271,100 @@ export const formulaData: IData[] = [
       },
     ],
   },
+  {
+    title: 'Cookie friend',
+    image: images.cookie0,
+    youtubeId: 'docJoiUy-9E',
+    instructions: [
+      {
+        title: 'Limb (x4)',
+        image: images.cookie1,
+        content: [
+          {
+            formula: 'Chain 9',
+            stitch: 9,
+          },
+          {
+            formula: 'Skip the first ch, sl 8',
+            stitch: 8,
+          },
+        ],
+        last: 'Done 4 times, 2 for legs and 2 for arms',
+      },
+      {
+        title: 'Glove (x4)',
+        image: images.cookie2,
+        content: [
+          {
+            formula: '6sc into magic loop',
+            stitch: 6,
+          },
+          {
+            formula: '(sc 1, inc 1) 3',
+            stitch: 9,
+          },
+          {
+            formula: '(sc 1, dec 1) 3',
+            stitch: 6,
+          },
+        ],
+        last: 'Done 4 times, 2 for hands and 2 for feet. Glued to one end of the limbs.',
+      },
+      {
+        title: 'Body (x3)',
+        image: images.cookie3,
+        content: [
+          {
+            formula: 'sc 8 into the magic loop',
+            stitch: 4,
+          },
+          {
+            formula: 'inc 8',
+            stitch: 16,
+          },
+          {
+            formula: '(sc 1, inc 1) 8',
+            stitch: 24,
+          },
+          {
+            formula: '(sc 1, inc 1, sc 1) 8',
+            stitch: 32,
+          },
+          {
+            formula: '(sl 1, 3T in 1 stitch) 16',
+            stitch: 32,
+          },
+        ],
+        last: 'Done 3 times, 2 black for the sides and 1 white for the creame filling. Glue the remmaining end of the limbs onto the sides of the body',
+      },
+      {
+        title: 'eye (x2)',
+        image: images.cookie4,
+        content: [
+          {
+            formula: '5sc into magic loop',
+            stitch: 5,
+          },
+          {
+            formula: 'inc 5',
+            stitch: 10,
+          },
+        ],
+        last: 'Glued onto 1 side. Could add a X stictch similar to the model',
+      },
+      {
+        title: 'nose',
+        image: images.cookie4,
+        content: [
+          {
+            formula: '6sc into magic loop',
+            stitch: 6,
+          },
+        ],
+        last: 'Glued below and inbetween 2 eyes',
+      },
+    ],
+  },
 ]
 
 export const toolData = [

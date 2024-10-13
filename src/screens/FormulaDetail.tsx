@@ -27,7 +27,7 @@ const FormulaDetail = ({ route }: Props) => {
       <View className="p-5 space-y-8">
         <Text className="font-semibold text-3xl text-primary">{data.title}</Text>
         <View>
-          <Text className="text-primary text-xl mb-2">Video hướng dẫn</Text>
+          <Text className="text-primary text-xl mb-2">Reference Video</Text>
           <YoutubePlayer
             height={200}
             play={playing}
@@ -36,7 +36,7 @@ const FormulaDetail = ({ route }: Props) => {
           />
         </View>
         <View>
-          <Text className="text-primary text-xl">Các bước thực hiện</Text>
+          <Text className="text-primary text-xl">Steps</Text>
           <View className="space-y-2">
             {data.instructions.map((part, index) => (
               <View className="space-y-4" key={part.title}>
@@ -71,7 +71,7 @@ const FormulaDetail = ({ route }: Props) => {
                       resizeMode="cover"
                     />
                     <Text className="text-md font-medium text-primary">
-                      Ảnh minh họa phần {part.title}
+                      Reference Image of {part.title}
                     </Text>
                   </View>
                 )}
