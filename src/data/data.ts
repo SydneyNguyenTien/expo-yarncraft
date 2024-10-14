@@ -274,7 +274,7 @@ export const formulaData: IData[] = [
   {
     title: 'Cookie friend',
     image: images.cookie0,
-    youtubeId: 'docJoiUy-9E',
+    youtubeId: '',
     instructions: [
       {
         title: 'Limb (x4)',
@@ -331,7 +331,7 @@ export const formulaData: IData[] = [
             stitch: 32,
           },
           {
-            formula: '(sl 1, 3T in 1 stitch) 16',
+            formula: '(sl 1, hdc 3 in 1 stitch) 16',
             stitch: 32,
           },
         ],
@@ -362,6 +362,436 @@ export const formulaData: IData[] = [
           },
         ],
         last: 'Glued below and inbetween 2 eyes',
+      },
+    ],
+  },
+  {
+    title: 'Alpaca',
+    image: images.alpaca0,
+    youtubeId: '',
+    instructions: [
+      {
+        title: 'Neck to Body',
+        image: images.alpaca1,
+        content: [
+          {
+            formula: 'sc 6 into the magic loop',
+            stitch: 6,
+          },
+          {
+            formula: 'inc 6',
+            stitch: 12,
+          },
+          {
+            formula: '(sc 1, inc 1) 6',
+            stitch: 18,
+          },
+          {
+            formula: '(sc 1, inc 1, sc 1) 6',
+            stitch: 24,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 24,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 24,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 24,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 24,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 24,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 24,
+          },
+          {
+            formula: '(sc 1, dec 1, sc 1) 6',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all around, stuff cotton',
+            stitch: 18,
+          },
+          {
+            formula: 'ch 8, return and skip 1 stich, inc 1, sc 30, inc 1 (connect the new chain and the existing body)',
+            stitch: 34,
+          },
+          {
+            formula: 'inc 2, sc 30, inc 2',
+            stitch: 38,
+          },
+          {
+            formula: '(sc 1, inc 1) 2, sc 30, (sc 1, inc 1) 2',
+            stitch: 42,
+          },
+          {
+            formula: '(sc 2, inc 1) 2, sc 30, (sc 2, inc 1) 2',
+            stitch: 46,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 46,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 46,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 46,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 46,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 46,
+          },
+          {
+            formula: 'sc 1, (sc 5, dec) 3, sc 2, (sc 5, dec) 3, sc 1',
+            stitch: 40,
+          },
+          {
+            formula: 'sc 2, (ch 4, skip 6 sticthes, sc 6, ch 4, skip 6 stitches) 2',
+            stitch: 32,
+          },
+          {
+            formula: 'dec 2, sc 1, SC3TOG, (sc 2, dec 2) 2, sc 1, SC3TOG, sc 2, dec 2, sc 2.',
+            stitch: 20,
+          },
+          {
+            formula: 'dec 10, stuff cotton',
+            stitch: 5,
+          },
+          {
+            formula: 'dec 5',
+            stitch: 2,
+          },
+
+        ],
+        last: 'Ch 1, cut the yarn and pull through.',
+      },
+      {
+        title: 'legs (x4)',
+        image: images.alpaca2,
+        content: [
+          {
+            formula: 'sc 10 on the the skipped chains of round 32 and 33 on the body, ',
+            stitch: 10,
+          },
+          {
+            formula: 'sc 10',
+            stitch: 10,
+          },{
+            formula: 'dec 5',
+            stitch: 5,
+          },
+        ],
+        last: 'Ch 1, cut the yarn and pull through. Done 4 times.',
+      },
+      {
+        title: 'ears and tails (x3)',
+        image: images.alpaca3,
+        content: [
+          {
+            formula: 'chain 4',
+            stitch: 6,
+          },
+          {
+            formula: 'return, skip 1, dc 2, sc 1',
+            stitch: 6,
+          },
+        ],
+        last: 'Chain 1, cut the yarn leaving enough tail end to sew onto the body. Done 3 times, 2 for ears and 1 for tail',
+      },
+      {
+        title: 'nose',
+        image: images.alpaca4,
+        content: [
+          {
+            formula: 'sc 6 into magic loop',
+            stitch: 6,
+          },
+          {
+            formula: '(sc 2, inc 1) 2',
+            stitch: 6,
+          },
+        ],
+        last: 'Chain 1, cut the yarn leaving enough tail end to sew or glue onto the body. Add a few stiches to outline the mouth as referenced. Glue 2 eyes on the sides of the nose.',
+      },
+    ],
+  },
+  {
+    title: 'Capybara Purin',
+    image: images.capypurin0,
+    youtubeId: '',
+    instructions: [
+      {
+        title: 'Head',
+        image: images.capypurin1,
+        content: [
+          {
+            formula: 'sc 6 into the magic loop',
+            stitch: 6,
+          },
+          {
+            formula: 'inc 6',
+            stitch: 12,
+          },
+          {
+            formula: '(sc 1, inc 1) 6',
+            stitch: 18,
+          },
+          {
+            formula: '(sc 1, inc 1, sc 1) 6',
+            stitch: 24,
+          },
+          {
+            formula: '(sc 3, inc 1) 6',
+            stitch: 30,
+          },
+          {
+            formula: '(sc 2, inc 1, sc 2) 6',
+            stitch: 36,
+          },
+          {
+            formula: '(sc 5, inc 1) 6',
+            stitch: 42,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 42,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 42,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 42,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 42,
+          },
+          {
+            formula: 'sc 13, inc 5, sc 6, inc 5, sc 13',
+            stitch: 52,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 52,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 52,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 52,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 52,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 52,
+          },
+          {
+            formula: 'sc 13, dec 5, sc 6, dec 5, sc 13',
+            stitch: 42,
+          },
+          {
+            formula: '(sc 5, dec 1) 6',
+            stitch: 32,
+          },
+          {
+            formula: '(sc 2, dec 1, sc 2) 6',
+            stitch: 30,
+          },
+          {
+            formula: '(sc 3, dec 1) 6',
+            stitch: 24,
+          },
+          {
+            formula: 'dec 12',
+            stitch: 12,
+          },
+          {
+            formula: 'dec 6',
+            stitch: 6,
+          },
+        ],
+        last: 'Sew through all loops and chain. Hide the yarn',
+      },
+      {
+        title: 'arms (x3)',
+        image: images.capypurin0,
+        content: [
+          {
+            formula: 'sc 6 in magic loop',
+            stitch: 6,
+          },
+          {
+            formula: 'inc 6',
+            stitch: 12,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 12,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 12,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 12,
+          },
+        ],
+        last: 'Ch 1, cut the yarn and pull through. Done 2 times. Sew or glue onto the body.',
+      },
+      {
+        title: 'leg (x2)',
+        image: images.capypurin2,
+        content: [
+          {
+            formula: 'sc 6 in magic loop',
+            stitch: 6,
+          },
+          {
+            formula: 'inc 6',
+            stitch: 12,
+          },
+          {
+            formula: '(sc 1, inc 1) 6',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all aoround',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all aoround',
+            stitch: 18,
+          },
+          {
+            formula: 'sc all aoround',
+            stitch: 18,
+          },
+        ],
+        last: 'sew 2 pair of opposite stitches of the legs together as referenced',
+      },
+      {
+        title: 'body',
+        image: images.capypurin3,
+        content: [
+          {
+            formula: 'start at one leg, connect 2 legs together: sc 16 (of 1st leg), sc 16 (of 2md leg)',
+            stitch: 32,
+          },
+          {
+            formula: 'sc 32',
+            stitch: 32,
+          },
+          {
+            formula: 'sc 8, inc 1, sc 14, inc 1, sc 8',
+            stitch: 34,
+          },
+          {
+            formula: 'sc 10, inc 1, sc 12, inc 1, sc 10',
+            stitch: 36,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 36,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 36,
+          },
+          {
+            formula: 'sc all around',
+            stitch: 36,
+          },
+          {
+            formula: 'sc 10, dec 1, sc 12, dec 1, sc 10',
+            stitch: 34,
+          },
+          {
+            formula: 'sc 5, dec 1, sc 9, dec 1, sc 9, dec 1, sc 5',
+            stitch: 31,
+          },
+          {
+            formula: 'sc 8, dec 1, sc 9, dec 1, sc 9, dec 1',
+            stitch: 28,
+          },
+        ],
+        last: 'sew 2 pair of opposite stitches of the legs together as referenced',
+      },
+      
+      {
+        title: 'nose',
+        image: images.capypurin4,
+        content: [
+          {
+            formula: 'ch 4',
+            stitch: 4,
+          },
+          {
+            formula: 'sc 2, sc 3 in the same stich, sc 1, inc 1',
+            stitch: 6,
+          },
+        ],
+        last: 'Chain 1, cut the yarn leaving enough tail end to sew or glue onto the body. Add a few stiches to outline the mouth as referenced. Glue 2 eyes on the sides of the nose.',
       },
     ],
   },
